@@ -23,12 +23,17 @@ The dataset is stored in the data directory of the Git repository. The data dire
 # Code
 The code for this project is written in Python and is located in the FinalCode directory of the Git repository. The code is a Jupyter notebook that contains the following sections:
 
-# Data Loading: This section loads the dataset from the data directory and preprocesses it for training and testing. The section uses the tensorflow library to load the images and their corresponding labels.
+# Data Loading: 
+This section loads the dataset from the data directory and preprocesses it for training and testing. The section uses the tensorflow library to load the images and their corresponding labels.
 
-# Data Augmentation: This section applies data augmentation techniques to the training dataset to increase its size and diversity. The section uses the tensorflow library to apply random rotations, translations, and zooms to the images.
+# Data Augmentation: 
+This section applies data augmentation techniques to the training dataset to increase its size and diversity. The section uses the tensorflow library to apply random rotations, translations, and zooms to the images.
 
-# Model Architecture: This section defines the neural network architecture used for traffic sign recognition. The architecture is based on the VGG16 model, which is a convolutional neural network (CNN) architecture that was proposed in 2014. The section uses the tensorflow and keras libraries to define and train the model.
+# Model Architecture: 
+This section defines the neural network architecture used for traffic sign recognition. The architecture is based on the VGG16 model, which is a convolutional neural network (CNN) architecture that was proposed in 2014. The section uses the tensorflow and keras libraries to define and train the model.
 
-# Training: This section trains the neural network model using the training dataset. The section uses the tensorflow library to train the model and save the trained model to a file.
+# Training: 
+This section trains the neural network model using the training dataset. The section uses the tensorflow library to train the model and save the trained model to a file.
 
-# Testing: This section tests the neural network model using the testing dataset. The section loads the trained model from a file and uses it to classify the images in the testing dataset. The section uses the tensorflow library to load the model and classify the images.
+# Testing: 
+This section tests the neural network model using the testing dataset. The section loads the trained model from a file and uses it to classify the images in the testing dataset. The section uses the tensorflow library to load the model and classify the images.
